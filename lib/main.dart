@@ -135,8 +135,6 @@ class _UpperButtonsState extends State<UpperButtons> {
       style: TextButton.styleFrom(
         backgroundColor: BGcolor,
       ),
-      // isSelected:  UpperButtons,
-      // child: const Text('Day'),
       onPressed: () {
         setState(() {
           if (BGcolor == kInactiveColor) {
@@ -209,7 +207,6 @@ class _DownButtonsState extends State<DownButtons> {
             const Text('- \$ 180',
                 style: TextStyle(
                     fontSize: 20, color: Color.fromARGB(255, 255, 124, 124))),
-            // const SizedBox(width: 15),
           ],
         ),
       ),
