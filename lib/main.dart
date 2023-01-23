@@ -164,7 +164,7 @@ class _DownButtonsState extends State<DownButtons> {
   Widget build(BuildContext context) {
     return Container(
       height: 70,
-      margin: const EdgeInsets.symmetric(horizontal: 30),
+      margin: const EdgeInsets.symmetric(horizontal: 50),
       child: TextButton(
         style: TextButton.styleFrom(
           padding: const EdgeInsets.all(12),
@@ -190,7 +190,7 @@ class _DownButtonsState extends State<DownButtons> {
             ),
             const CircleAvatar(
               radius: 12,
-              backgroundColor: Colors.black,
+              backgroundColor: Color.fromARGB(255, 1, 150, 110),
             ),
             Column(
               mainAxisAlignment: MainAxisAlignment.center,
