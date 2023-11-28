@@ -1,4 +1,4 @@
-# dice_app
+# Statistics UI
 
 A new Flutter project.
 
